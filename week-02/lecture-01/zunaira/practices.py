@@ -4,15 +4,15 @@ same_element=False
 for i in range(len(a)-1):
     if a[i]==a[i+1]:
         same_element=True
-        b=i
+        b=i+1
         l_half=a[0:b]
         r_half=a[b:]
         sum_l_half=sum(l_half)
         sum_r_half=sum(r_half)
 
         print("left half:",l_half)
-        print("left half:",r_half)
-        print("Sum of left half:",sum_r_half)
+        print("right half:",r_half)
+        print("Sum of left half:",sum_l_half)
         print("Sum of right half:",sum_r_half)
         break
 if same_element:

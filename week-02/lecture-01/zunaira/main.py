@@ -3,14 +3,14 @@ same_element=False
 for i in range(len(a)-1):
     if a[i]==a[i+1]:
         same_element=True
-        b=i
+        b=i+1
         l_half=a[0:b]
         r_half=a[b:]
         count_l_half=len(l_half)
         count_r_half=len(r_half)
    
         print("left half:",l_half)
-        print("left half:",r_half)
+        print("right half:",r_half)
         print("count of left half:",count_l_half)
         print("Count of right half:",count_r_half)
         break
