@@ -15,8 +15,7 @@ print("Values of list in Assending order" ,value)
 
 
 # ***************************Program no # 02 ****************************
-list = [1,0,1,0,1,0,1,1,5,1,0,1,0,1,0,0,1,0,1,8,1,0] 
-
+list = [1,0,1,0,1,0,1,1,5,1,0,1,0,1,8,0,1,0,1,8,1,0,0,8,7] 
 start_range=0
 count_lists_values=[]
 print("\nLists \n")
@@ -39,6 +38,7 @@ for i in range(len(count_lists_values)-1):
     if count_lists_values[i]<count_lists_values[i+1]:
         large_list = i+2
 print("\nLargest list is list number ", large_list)
+
 
 
 
@@ -73,9 +73,3 @@ for i in range(len(summation)-1):
         maximum = i+2
 print("\nGreatest sum is ", greatest_sum,"of list number",maximum)
 print("And squre is ", greatest_sum*greatest_sum)
-
-
-
-
-
-
