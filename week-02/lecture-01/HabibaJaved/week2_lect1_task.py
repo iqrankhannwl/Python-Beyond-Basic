@@ -1,9 +1,9 @@
 #    ******************Program for Assending order*********************
 value = [8,4,6,3,2,0,5,6,5]
 # outer loop
-for i in range(len(value)-2):
+for i in range(len(value)-1):
 #  inner loop
-    for j in range(i+1,len(value)-1):
+    for j in range(i+1,len(value)):
         if value[i]>value[j]:
 #  swaping 
             temp = value[i]
