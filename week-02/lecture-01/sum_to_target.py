@@ -7,9 +7,15 @@ def sum_to_target(list,target):
                 new_list.append(i) 
                 new_list.append(j)
                 print(new_list)
-                # break
+                break
 
 sum_to_target([2,6,13, 3], 9)  #function call
+
+
+print("jkgb b")
+
+
+
 
 
 

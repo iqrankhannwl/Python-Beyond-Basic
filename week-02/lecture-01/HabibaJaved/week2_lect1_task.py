@@ -12,8 +12,6 @@ for i in range(len(value)-1):
 
 print("Values of list in Assending order" ,value)
 
-
-
 # ***************************Program no # 02 ****************************
 list = [1,0,1,0,1,0,1,1,5,1,0,1,0,1,8,0,1,0,1,8,1,0,0,8,7] 
 start_range=0
