@@ -1,0 +1,1 @@
+print("This is a python lecture 2")
